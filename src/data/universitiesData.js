@@ -1,0 +1,62 @@
+export const FEATURED_UNIVERSITIES = [
+  {
+    id: 'oxford',
+    name: 'University of Oxford',
+    country: 'United Kingdom',
+    city: 'Oxford',
+    flag: '🇬🇧',
+    rank: '#1 World University Rankings',
+    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80',
+    tuition: '£28,000 – £41,000 / yr',
+    livingCost: '£14,500 / yr',
+    acceptanceRate: '14.2%',
+    scholarship: 'Clarendon Fund (Full Tuition + Living Stipend)',
+    popularCourses: ['MSc Advanced Computer Science', 'MBA Said Business School', 'MSc Mathematical Modelling', 'BCL Law'],
+    highlights: ['Collegiate community', 'Tutorial learning system', 'Centuries of scholarly heritage']
+  },
+  {
+    id: 'toronto',
+    name: 'University of Toronto',
+    country: 'Canada',
+    city: 'Toronto, Ontario',
+    flag: '🇨🇦',
+    rank: '#21 Global Rank • #1 in Canada',
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80',
+    tuition: 'CAD $42,000 – $60,000 / yr',
+    livingCost: 'CAD $18,000 / yr',
+    acceptanceRate: '43%',
+    scholarship: 'Lester B. Pearson International Scholarship (Full 4-yr Ride)',
+    popularCourses: ['Master of Information', 'MSc Computer Science (Vector AI)', 'Master of Finance (Rotman)', 'Civil Eng'],
+    highlights: ['Vibrant downtown campus', 'World-leading AI research hub', 'Direct 3-yr PGWP pathway']
+  },
+  {
+    id: 'melbourne',
+    name: 'University of Melbourne',
+    country: 'Australia',
+    city: 'Melbourne, Victoria',
+    flag: '🇦🇺',
+    rank: '#13 QS World Rankings • #1 in Australia',
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80',
+    tuition: 'AUD $38,000 – $52,000 / yr',
+    livingCost: 'AUD $24,000 / yr',
+    acceptanceRate: '70% (Course-dependent)',
+    scholarship: 'Melbourne International Undergraduate/Graduate Scholarship ($10k – 100%)',
+    popularCourses: ['Master of Data Science', 'Master of Management', 'Master of Engineering', 'Architectural Design'],
+    highlights: ['Parkville biomedical precinct', 'Melbourne Model degree structure', 'World’s most livable city']
+  },
+  {
+    id: 'tum',
+    name: 'Technical University of Munich (TUM)',
+    country: 'Germany',
+    city: 'Munich, Bavaria',
+    flag: '🇩🇪',
+    rank: '#28 Global Rank • #1 in Germany',
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=1200&q=80',
+    tuition: '€0 – €6,000 / yr (Highly Subsidized)',
+    livingCost: '€11,208 / yr (Blocked Account)',
+    acceptanceRate: '8% (Selective Aptitude Assessment)',
+    scholarship: 'DAAD Study Scholarship & Deutschlandstipendium (€300/mo)',
+    popularCourses: ['MSc Robotics, Cognition & Intelligence', 'MSc Informatics', 'MSc Automotive Engineering', 'TUM School of Mgmt'],
+    highlights: ['German Silicon Valley partnerships (BMW, Siemens)', 'Zero tuition on public programs', '18-mo Job Search Visa']
+  }
+];
